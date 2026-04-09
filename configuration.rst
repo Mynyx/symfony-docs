@@ -174,9 +174,13 @@ configuration files, even if they use a different format:
 Configuration Parameters
 ------------------------
 
-Sometimes the same configuration value is used in several configuration files.
-Instead of repeating it, you can define it as a "parameter", which is like a
-reusable configuration value. By convention, parameters are defined under the
+Parameters are key-value pairs stored in the
+:doc:`service container </service_container>`. They allow you to centralize
+configuration values that can be reused across your application's configuration
+files and injected into services.
+
+When the same configuration value is used in several places, define it as a
+parameter to avoid repetition. By convention, parameters are defined under the
 ``parameters`` key in the ``config/services.yaml`` file:
 
 .. configuration-block::

@@ -676,7 +676,7 @@ logic about those arguments::
         }
     }
 
-The ``#[Autowire]`` attribute can also be used for :ref:`parameters <service-parameters>`,
+The ``#[Autowire]`` attribute can also be used for :ref:`parameters <service-container-parameters>`,
 :doc:`complex expressions </service_container/expression_language>` and even
 :ref:`environment variables <config-env-vars>` ,
 :doc:`including env variable processors </configuration/env_var_processors>`::
