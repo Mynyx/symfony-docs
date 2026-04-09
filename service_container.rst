@@ -785,7 +785,7 @@ reload the next page (even if that page doesn't use this service).
 .. _service-parameters:
 
 Container Parameters and Service References
---------------------------------------------
+-------------------------------------------
 
 In addition to holding service objects, the container also holds configuration,
 called **parameters**. The main article about Symfony configuration explains the
